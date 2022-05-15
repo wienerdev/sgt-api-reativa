@@ -21,10 +21,14 @@ Para executar o projeto no terminal, digite o seguinte comando:
 mvn spring-boot:run 
 ```
 
-Após executar o comando acima, basta apenas abrir o seguinte endereço e visualizar a execução do projeto:
+Após executar o comando acima, basta mandar uma requisição JSON para os um dos links da lista de funcionalidades e seus endpoints:
 
 ```
-
+Buscar todas as tarefas (GET): http://localhost:8080/tarefas
+Buscar uma tarefa por ID (GET): http://localhost:8080/tarefas/<id>
+Deletar uma tarefa por ID (DELETE): http://localhost:8080/deleteTarefa/<id>
+Atualizar uma tarefa por ID (PUT): http://localhost:8080/updateTarefa/<id>
+Criar ou salvar uma tarefa (POST): http://localhost:8080/saveTarefa
 ```
 
 Para conferir se as operações de gerenciamento de usuários estão funcionando, utilize o Postman, [clique aqui para ver!](https://ibb.co/0QMytWZ)
