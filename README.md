@@ -12,8 +12,26 @@ API reativa desenvolvida para um sistema de gerenciamento de tarefas, utilizando
 
 * Java 11 ou versões superiores
 * Maven 3.8.5 ou versões superiores
+* Docker para o banco de dados
+
+## 🛠 Tecnologias utilizadas
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+* [Docker](https://www.docker.com/)
+* [Java](https://www.oracle.com/br/java/)
+* [Maven](https://maven.apache.org/)
+* [Spring Boot](https://spring.io/projects/spring-boot)
+* [Webflux](https://docs.spring.io/spring-framework/docs/current/reference/html/web-reactive.html)
+* [MongoDB](https://www.mongodb.com/pt-br)
 
 ## 📌 Como utilizar?
+
+Para rodar o banco de dados em uma imagem docker, digite o seguinte comando na raiz principal do projeto:
+
+```shell script
+docker-compose up
+```
 
 Para executar o projeto no terminal, digite o seguinte comando:
 
