@@ -12,6 +12,7 @@ import static org.springframework.web.reactive.function.server.RequestPredicates
 
 /**
  * Router apontando os endpoints para a RouterFunctions do Webflux.
+ * OBS: Para utilizar essa router, comente o @RestController da classe TarefaController
  * 
  * @author Matheus Nicolay Ulharuso Wiener
  * @version 1.0

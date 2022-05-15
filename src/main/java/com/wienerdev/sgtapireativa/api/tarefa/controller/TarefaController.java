@@ -20,11 +20,13 @@ import reactor.util.function.Tuple2;
 
 /**
  * Controller implementando os endpoints do objeto Tarefa.
+ * OBS: Para utilizar essa controller, comente o @Bean e @Configuration da classe TarefaRouter
  * 
  * @author Matheus Nicolay Ulharuso Wiener
  * @version 1.0
  * @since 1.0
  */
+// @RestController
 public class TarefaController {
 
     @Autowired
