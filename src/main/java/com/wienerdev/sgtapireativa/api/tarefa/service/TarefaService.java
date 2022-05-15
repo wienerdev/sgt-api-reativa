@@ -18,6 +18,6 @@ public interface TarefaService {
     Mono<TarefaDTO> getById(String id);
     Mono<TarefaDTO> saveTarefa(TarefaDTO tarefa);
     Mono<Void> deleteTarefaById(String id);
-    Mono<TarefaDTO> updateTarefaById(String id, TarefaDTO tarefa);
+    Mono<TarefaDTO> updateTarefaById(TarefaDTO tarefa);
     
 }
