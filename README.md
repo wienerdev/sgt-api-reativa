@@ -12,8 +12,15 @@ API reativa desenvolvida para um sistema de gerenciamento de tarefas, utilizando
 
 * Java 11 ou versões superiores
 * Maven 3.8.5 ou versões superiores
+* Docker para o banco de dados
 
 ## 📌 Como utilizar?
+
+Para rodar o banco de dados em uma imagem docker, digite o seguinte comando na raiz principal do projeto:
+
+```shell script
+docker-compose up
+```
 
 Para executar o projeto no terminal, digite o seguinte comando:
 
