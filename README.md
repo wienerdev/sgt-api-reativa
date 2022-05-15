@@ -21,7 +21,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 * [Docker](https://www.docker.com/)
 * [Java](https://www.oracle.com/br/java/)
 * [Maven](https://maven.apache.org/)
-* [Spring](https://spring.io/)
+* [Spring Boot](https://spring.io/projects/spring-boot)
 * [Webflux](https://docs.spring.io/spring-framework/docs/current/reference/html/web-reactive.html)
 * [MongoDB](https://www.mongodb.com/pt-br)
 
