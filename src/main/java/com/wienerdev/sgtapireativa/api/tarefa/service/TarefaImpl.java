@@ -9,6 +9,13 @@ import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
+/**
+ * Implementação dos métodos da Service da TarefaDTO
+ * 
+ * @author Matheus Nicolay Ulharuso Wiener
+ * @version 1.0
+ * @since 1.0
+ */
 @Service
 public class TarefaImpl implements TarefaService {
 
@@ -54,12 +61,8 @@ public class TarefaImpl implements TarefaService {
      * @return Mono< TarefaDTO >
      */
     @Override
-    public void deleteTarefaById(String id) {
-        try {
-            tarefaRepository.deleteById(id);
-        } catch (Exception e) {
-            e.getMessage();
-        }
+    public Mono<Void> deleteTarefaById(String id) {
+        return tarefaRepository.deleteById(id);
     }
 
     /**

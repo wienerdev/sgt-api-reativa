@@ -11,5 +11,5 @@ import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
  * @since 1.0
  */
 public interface TarefaRepository extends ReactiveMongoRepository<TarefaDTO, String>  {
-    
+
 }
