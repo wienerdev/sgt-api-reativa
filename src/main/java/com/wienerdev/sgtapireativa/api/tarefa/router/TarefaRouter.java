@@ -10,6 +10,13 @@ import org.springframework.web.reactive.function.server.RouterFunctions;
 import org.springframework.web.reactive.function.server.ServerResponse;
 import static org.springframework.web.reactive.function.server.RequestPredicates.*;
 
+/**
+ * Router apontando os endpoints para a RouterFunctions do Webflux.
+ * 
+ * @author Matheus Nicolay Ulharuso Wiener
+ * @version 1.0
+ * @since 1.0
+ */
 @Configuration
 public class TarefaRouter {
 

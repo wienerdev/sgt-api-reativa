@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
@@ -22,7 +21,6 @@ import reactor.core.publisher.Mono;
  * @version 1.0
  * @since 1.0
  */
-// @RestController
 public class TarefaController {
 
     @Autowired
@@ -73,7 +71,7 @@ public class TarefaController {
      * @param tarefa - TarefaDTO
      * @return Mono< TarefaDTO >
      */
-    @PostMapping(value = "/saveTarefa", consumes = "*/*")
+    @PostMapping(value = "/saveTarefa")
     public Mono<TarefaDTO> saveTarefa(@RequestBody TarefaDTO tarefa) {
         return tarefaService.saveTarefa(tarefa);
     }
