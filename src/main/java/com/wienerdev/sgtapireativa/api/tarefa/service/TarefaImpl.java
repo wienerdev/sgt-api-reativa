@@ -73,7 +73,7 @@ public class TarefaImpl implements TarefaService {
      * @return Mono< TarefaDTO >
      */
     @Override
-    public Mono<TarefaDTO> updateTarefaById(String id, TarefaDTO tarefa) {
+    public Mono<TarefaDTO> updateTarefaById(TarefaDTO tarefa) {
         return tarefaRepository.save(tarefa);
     }
 
