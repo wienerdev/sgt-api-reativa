@@ -15,11 +15,8 @@ public class TarefaDTO {
 
     @Id
     private String id;
-
     private String tituloTarefa;
-
     private String descricaoTarefa;
-
     private String statusTarefa;
 
     public String getId() {

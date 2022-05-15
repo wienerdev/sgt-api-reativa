@@ -17,7 +17,7 @@ public interface TarefaService {
     Flux<TarefaDTO> findAll();
     Mono<TarefaDTO> getById(String id);
     Mono<TarefaDTO> saveTarefa(TarefaDTO tarefa);
-    void deleteTarefaById(String id);
+    Mono<Void> deleteTarefaById(String id);
     Mono<TarefaDTO> updateTarefaById(String id, TarefaDTO tarefa);
     
 }
